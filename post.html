@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>post App</title>
+    <!-- ===== bootstrap link ====== -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css
+     "
+    />
+    <link rel="stylesheet" href="post.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-success">
+      <div class="container-fluid">
+        <a class="navbar-brand nav_text text-light" href="#">Smit Post App</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-lg-12" id="post_div">
+          <div class="post_form">
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label post_text"
+                >Tittle</label
+              >
+              <input
+                type="text"
+                class="form-control post_input"
+                id="post_tittle"
+                placeholder=""
+              />
+            </div>
+            <div class="mb-3">
+              <label
+                for="exampleFormControlTextarea1"
+                class="form-label post_text"
+                >Description</label
+              >
+              <textarea
+                class="form-control post_input"
+                id="post_des"
+                rows="3"
+              ></textarea>
+            </div>
+            <div class="post_btn">
+              <button onclick="postadd()" class="post_button bg-success">
+                Post
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <!-- ===== sweet alert ===== -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- ===== bootstrap script link ===== -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js
+    "></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,73 @@
+.facebook_heading {
+    display: flex !important;
+    justify-content: center !important;
+}
+.facebook_heading img {
+    height: 100px !important;
+}
+.form_heading {
+    text-align: center !important;
+}
+.form_heading p {
+    font-size: 25px !important;
+    line-height: 32px !important;
+    text-align: center !important;
+    font-weight: 700 !important;
+}
+.form_container {
+ 
+    align-items: center !important;
+    border: 1px solid black !important;
+    width: 432px !important;
+    background-color: #fff !important;
+    border-radius: 0 0 8px 8px !important;
+    border: 1px solid #dadde1 !important;
+    box-sizing: border-box !important;
+    padding: 16px !important;
+    height:auto !important;
+}
+.input_field {
+    /* padding: 11px !important; */
+    box-shadow: none !important;
+}
+.input_field:focus{
+    border: 1px solid black !important;
+
+}
+.my_btn {
+    display: flex !important;
+    justify-content: center !important;
+    
+}
+.my_btn .btn {
+    height: 36px !important;
+    box-shadow: none !important;
+    color: #fff !important;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    height: 36px !important;
+    overflow: hidden !important;
+    padding: 0 32px !important;
+    text-shadow: none !important;
+    width: 170px !important;
+    background: none !important;
+    background-color: #00a400 !important;
+    border: none !important;
+    border-radius: 6px !important;
+}
+
+.file {
+    width: 200px !important;
+    height: 200px !important;
+    border-radius: 100% !important;
+    background-color: red !important;
+}
+@media screen and (max-width:600px) {
+    .form_container {
+        width: 100% !important;
+        border: none !important;
+    }
+}
+
+
+  

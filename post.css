@@ -1,0 +1,101 @@
+.nav_text {
+    font-size: 30px !important;
+}
+
+.post_form {
+    width: 100% !important;
+    align-items: center !important;
+    max-width: 660px !important;
+    margin: auto !important;
+    /* border: 1px solid black !important; */
+    padding: 20px !important;
+    margin-top: 30px !important;
+    border-radius: 10px !important;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, .1), 0px 8px 16px rgba(0, 0, 0, .1) !important;
+}
+.post_input {
+    /* border: none !important; */
+    box-shadow: none !important;
+    padding: 14px 16px !important;
+}
+.post_text {
+    font-size: 25px !important;
+}
+.post_btn .post_button {
+    width: 100% !important;
+    padding: 10px 12px !important;
+    border-radius: 10px !important;
+    border: none !important;
+    color: white !important;
+    font-size: 25px !important;
+
+}
+.swal2-styled {
+    background-color: green !important;
+}
+.swal2-confirm {
+    width: 100% !important;
+}
+.main_div {
+    display: flex !important;
+    gap: 10px !important;
+}
+.img_div img {
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 100% !important;
+
+}
+.icon_div {
+    display: flex !important;
+    justify-content: space-around !important;
+}
+.icon_like span i{
+    color: grey !important;
+    font-size: 20px !important;
+}
+.icon_comment span i{
+    color: grey !important;
+    font-size: 20px !important;
+}
+.icon_whatsap span i{
+    color: grey !important;
+    font-size: 20px !important;
+}
+.icon_share span i{
+    color: grey !important;
+    font-size: 20px !important;
+}
+.like_text{
+       color: grey !important;
+    font-size: 20px !important;
+}
+.post_tittle {
+    font-weight: 500 !important;
+    font-size: 25px !important;
+}
+.post_dec {
+    font-size: 20px !important;
+}
+#date {
+    margin-top: -20px !important;
+}
+.get_dec {
+    word-wrap: break-word !important; /* Forces long words to break onto the next line */
+    overflow-wrap: break-word !important; /* Handles breaking for different browsers */
+    max-width: 100% !important; /* Ensures the content doesn't exceed the container */
+    white-space: normal !important; /* Allows wrapping of text */
+  }
+  
+  .post_dec {
+    overflow: hidden !important; /* Ensures any overflowing content is hidden */
+    text-overflow: ellipsis !important; /* Adds '...' for truncated text if needed */
+  }
+
+  @media screen and (max-width: 600px) {
+    .icon_div{
+        display: flex !important;
+        justify-content: space-between !important;
+        gap: 5px !important;
+    }
+  }
